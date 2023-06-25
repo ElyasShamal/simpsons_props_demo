@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1 className="main-title">The Simpsons</h1>
       <div className="container">
-        <Character character={characters[0]} />
+        <Character character={characters[0]} /*showQuote={false} */ />
         <Character character={characters[1]} />
         <Character character={characters[2]} />
         <Character character={characters[3]} />
