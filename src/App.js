@@ -1,14 +1,13 @@
-import "./App.css"
+import "./App.css";
+import { characters } from "./data";
 
 function App() {
-   return (
-      <div className="App">
-         <h1 className="main-title">The Simpsons</h1>
-         <div className="container">
-            
-         </div>
-      </div>
-   )
+  return (
+    <div className="App">
+      <h1 className="main-title">The Simpsons</h1>
+      <div className="container"></div>
+    </div>
+  );
 }
 
-export default App
+export default App;
